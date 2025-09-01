@@ -1,0 +1,135 @@
+{
+  "configuracion": {
+    "nombre_hotel": "Hotel VE2",
+    "version": "1.0.0",
+    "fecha_creacion": "2024-01-15",
+    "configuracion_sistema": {
+      "debug": true,
+      "puerto": 5000,
+      "host": "localhost"
+    }
+  },
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "identificacion": "12345678",
+      "direccion": "Calle 123 #45-67, Bogotá",
+      "correo": "juan.perez@email.com",
+      "telefono": "3001234567"
+    },
+    {
+      "id": 2,
+      "nombre": "María García",
+      "identificacion": "87654321",
+      "direccion": "Carrera 78 #12-34, Medellín",
+      "correo": "maria.garcia@email.com",
+      "telefono": "3109876543"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Rodríguez",
+      "identificacion": "11223344",
+      "direccion": "Avenida 5 #23-45, Cali",
+      "correo": "carlos.rodriguez@email.com",
+      "telefono": "3155551234"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana López",
+      "identificacion": "55667788",
+      "direccion": "Calle 90 #67-89, Barranquilla",
+      "correo": "ana.lopez@email.com",
+      "telefono": "3201112222"
+    },
+    {
+      "id": 5,
+      "nombre": "Roberto Silva",
+      "identificacion": "99887766",
+      "direccion": "Carrera 15 #12-34, Cartagena",
+      "correo": "roberto.silva@email.com",
+      "telefono": "3004445555"
+    }
+  ],
+  "pagos": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "monto": 150000.00,
+      "fecha": "2024-01-10",
+      "metodo": "Efectivo"
+    },
+    {
+      "id": 2,
+      "cliente_id": 1,
+      "monto": 200000.00,
+      "fecha": "2024-01-15",
+      "metodo": "Tarjeta de Crédito"
+    },
+    {
+      "id": 3,
+      "cliente_id": 2,
+      "monto": 180000.00,
+      "fecha": "2024-01-12",
+      "metodo": "Transferencia Bancaria"
+    },
+    {
+      "id": 4,
+      "cliente_id": 3,
+      "monto": 120000.00,
+      "fecha": "2024-01-14",
+      "metodo": "Efectivo"
+    },
+    {
+      "id": 5,
+      "cliente_id": 4,
+      "monto": 250000.00,
+      "fecha": "2024-01-16",
+      "metodo": "Tarjeta de Débito"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "hashed_password_here"
+    },
+    {
+      "id": 2,
+      "username": "recepcionista",
+      "password": "hashed_password_here"
+    }
+  ],
+  "estadisticas": {
+    "total_clientes": 5,
+    "total_pagos": 5,
+    "monto_total_pagos": 900000.00,
+    "promedio_pago": 180000.00,
+    "metodos_pago_mas_usados": {
+      "Efectivo": 2,
+      "Tarjeta de Crédito": 1,
+      "Tarjeta de Débito": 1,
+      "Transferencia Bancaria": 1
+    }
+  },
+  "servicios_hotel": [
+    {
+      "id": 1,
+      "nombre": "Habitación Individual",
+      "precio": 80000.00,
+      "descripcion": "Habitación con una cama individual"
+    },
+    {
+      "id": 2,
+      "nombre": "Habitación Doble",
+      "precio": 120000.00,
+      "descripcion": "Habitación con dos camas individuales"
+    },
+    {
+      "id": 3,
+      "nombre": "Suite",
+      "precio": 200000.00,
+      "descripcion": "Suite de lujo con jacuzzi"
+    }
+  ]
+} 
